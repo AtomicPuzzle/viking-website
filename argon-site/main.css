@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Header / Navbar */
+a.navbar-brand {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a.navbar-brand span {
+    font-weight: 800;
+}
+
+.icon-cart {
+    font-size: 20px;
+    margin-left: 1px;
+}
+
+.icon-user-nav {
+    font-size: 20px;
+}
+
+#loginModalIcon {
+    font-size: 6rem;
+}
+
+div[class="card-header bg-white pb-5"] {
+    padding-bottom: 20px!important;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        /* padding: .625rem 0; */
+        color: white !important;
+    }
+}
