@@ -33,6 +33,41 @@ div[class="card-header bg-white pb-5"] {
 
 
 
+/* Catalogue Item */
+.product-image-catalogue {
+    width: 100%;
+}
+
+.product-name {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.seller {
+    margin: 0px;
+    color: lightgrey;
+    transform: translateY(-0.5rem);
+}
+
+.price {
+    color: red;
+    font-size: 1.1rem;
+}
+
+select.quantity-select.form-control {
+    width: 30%;
+}
+
+div.product-desc-catalogue p:nth-of-type(1) {
+    font-weight: 600;
+    margin: 0px;
+}
+
+div.product-desc-catalogue p:nth-of-type(2) {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
 
 @media only screen and (min-width: 768px) {
 
